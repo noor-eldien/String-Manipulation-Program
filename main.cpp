@@ -1,6 +1,3 @@
-/**
- * IDs: 20236102 _ 20236109
-**/
 #include <iostream>
 using namespace std;
 
