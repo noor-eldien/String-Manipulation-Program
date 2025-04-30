@@ -31,3 +31,33 @@ The `DoublyLinkedList` class manages the nodes and provides the following member
 - `extractSubstring(int start, int length)`: Returns a substring starting at the given index with the specified length.
 - `searchSubstring(const string& sub)`: Searches for a substring and returns the starting index.
 - `replaceSubstring(const string& target, const string& replacement)`: Replaces occurrences of a target substring with another substring.
+
+## Program Input/Output Examples
+
+### Input Format
+
+**Example Input:**
+```
+Enter string to add to list 1: Hello
+Enter string to add to list 2: World
+Choose a character by a 1-indexed value to remove: 3
+Enter index and length to get substring: 
+index (1-index value): 2
+length: 4
+Search for a string in the list: (NOTE: function is Case-Sensitive)
+lloW
+Enter 2 substrings to replace one with another: 
+old string: oWo
+new string: XYX
+```
+### Output Format
+
+**Output:**
+```
+Concatenated Lists: HelloWorld
+String length after concat: 10
+List after removal: HeloWorld
+Substring: eloW
+Found at index 3  -> NOTE: 1-indexed answer
+List after replacement: HelXYXrld
+```
